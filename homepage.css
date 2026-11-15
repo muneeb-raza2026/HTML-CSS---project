@@ -140,3 +140,43 @@ footer{
     border-radius: 10px;
     
 }
+
+
+/* ===== RESPONSIVE CSS ===== */
+
+/* Tablet and smaller (992px or less) */
+@media (max-width: 992px) {
+    nav {
+        flex-wrap: wrap;
+    }
+    #about,
+    #contact {
+        height: auto;
+    }
+    #about div,
+    #contact div {
+        height: auto;
+    }
+    #about div img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile phones (600px or less) */
+@media (max-width: 600px) {
+    .mybutton {
+        padding: 8px 12px;
+    }
+    #about,
+    #contact {
+        flex-direction: column;
+    }
+    #about div,
+    #contact div {
+        width: 100%;
+    }
+    #about div img {
+        width: 100%;
+    }
+}

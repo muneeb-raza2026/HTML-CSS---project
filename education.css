@@ -219,3 +219,47 @@ footer{
     margin-left: 10px;
 }
  
+
+
+/* ===== RESPONSIVE CSS ===== */
+
+/* Tablet and smaller (992px or less) */
+@media (max-width: 992px) {
+    body nav {
+        flex-wrap: wrap;
+    }
+    body nav a {
+        margin-left: 10px;
+    }
+    body #elementry,
+    body #high,
+    body #inter,
+    body #bachelor {
+        height: auto;
+    }
+    body #elementry div,
+    body #high div,
+    body #inter div,
+    body #bachelor div {
+        height: auto;
+    }
+}
+
+/* Mobile phones (600px or less) */
+@media (max-width: 600px) {
+    .mybutton {
+        padding: 8px 12px;
+    }
+    body #elementry,
+    body #high,
+    body #inter,
+    body #bachelor {
+        flex-direction: column;
+    }
+    body #elementry div,
+    body #high div,
+    body #inter div,
+    body #bachelor div {
+        width: 100%;
+    }
+}
