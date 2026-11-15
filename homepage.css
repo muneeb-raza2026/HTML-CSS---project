@@ -62,7 +62,7 @@ header{
     align-items:cover;
     justify-content: cover;
     img{
-        height: 100%;
+        height: 80%;
         object-fit: cover;
         border-radius: 90px;
         border-color: black;
